@@ -1,8 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+:root {
+     /* Colors */
+     --color-primary: #562EFF;
+
+     /* Font Utilities */
+     --title-size: 24px;
+     --text-size: 20px;
+     --p-size: 14px;
+
+     --title-weight: 500;
+     --normal-weight: 400;
+}
+
 body {
-     background-color: #E5E5E5;
+     background-color: #F3F1FF;
+     font-family: 'Poppins', sans-serif;
 }
 .navbar img {
-     width: 35px;
+     width: 40px;
 }
 
 .brand-logo {
@@ -11,4 +27,35 @@ body {
 
 .navbar-nav *:not(:last-child) {
      margin-right: 25px;
+}
+
+main {
+     padding: 30px 0;
+}
+
+.player {
+     margin-bottom: 30px;
+}
+
+.player img {
+     width: 56px;
+     margin-right: 20px;
+}
+
+.top-player {
+     background-color: #fff;
+     padding: 50px;
+     border-radius: 5px;
+}
+
+.section-player-blog h2 {
+     font-size: var(--title-size);
+     font-weight: var(--title-weight);
+     color: var(--color-primary);
+     margin-bottom: 50px;
+}
+
+.section-player-blog h4 {
+     font-size: 18px;
+     font-weight: var(--title-weight);
 }
